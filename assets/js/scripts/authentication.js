@@ -1,15 +1,10 @@
-window.onload = function() {
+window.onload = () => {
   const correctPassword = 'bHVhbmluaGFzMg==';
-  const userPassword = prompt('Qual a senha?');
 
-  if (userPassword !== atob(correctPassword)) {
-    const youtubeVideo = 'https://www.youtube.com/shorts/m3YeXPpai4U';
-    alert('Você errou a senha 😭');
-    window.location.href = youtubeVideo;
-    return;
-  }
+  let userPassword = prompt('Senha:');
+  while (userPassword !== atob(correctPassword)) userPassword = prompt('Senha incorreta. Tente novamente:');
 
-  alert('Senha correta, aproveita a surpresa que lhe preparei meu amor 🥰🥰');
+  alert('Senha correta, aproveita a surpresa que lhe preparei amor 🥰🥰');
 
   const overlayContainer = document.getElementById('overlayContainer');
   overlayContainer.style.display = 'none';

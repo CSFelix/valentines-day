@@ -9,6 +9,16 @@
 }
 
 
+/*
+	**************
+	** Stickers **
+	**************
+*/
+.sticker {
+	width: 45px;
+	height: 45px;
+}
+
 
 /*
 	******************************************************
@@ -21,7 +31,7 @@
 
 .commonContentContainer {
 	width: 100.00%;
-	height: 90.00%;
+	height: 100.00%;
 	background-color: var(--background-color-2);
 
 	display: flex;
