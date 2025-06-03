@@ -39,6 +39,10 @@
 	--background-color-2: #f6f6ff;
 	--background-color-3: #363636;
 
+	--linear-gradient-angle: 135deg;
+	--linear-gradient-color-1: #ffc2d1;
+	--linear-gradient-color-2: #ffe3ec;
+
 	--scrollbar-color-1: #ffc1da;
 	--scrollbar-color-2: #f564a9;
 	--scrollbar-color-3: #c9146a;

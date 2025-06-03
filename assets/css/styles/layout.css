@@ -1,7 +1,15 @@
+@keyframes gradientFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 .mainContainer {
 	width: 100vw;
 	height: 100vh;
-	background-color: var(--background-color-1);
+	background: linear-gradient(var(--linear-gradient-angle), var(--background-color-1), var(--linear-gradient-color-1), var(--linear-gradient-color-2));
+	background-size: 400% 400%;
+  animation: gradientFlow 10s ease infinite;
 
 	display: flex;
 	flex-direction: column;
@@ -24,6 +32,7 @@
 	overflow-y: auto;
 	background-color: var(--background-color-2);
 	border-radius: 7px;
+	box-shadow: 0px 4px 10px var(--background-color-3);
 
 	display: flex;
 	flex-direction: column;
