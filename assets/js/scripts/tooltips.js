@@ -55,3 +55,23 @@ tippy('#momentsPic8', {
 	...tippyParams,
 	content: 'Você estava linda nesta roupa meu amor 😍😍',
 });
+
+tippy('#momentsPic9', {
+	...tippyParams,
+	content: 'Você é aquela professora dedidaca que todos nós amamos 📏',
+});
+
+tippy('#momentsPic10', {
+	...tippyParams,
+	content: 'Companheira, carinhosa, meu amor!!',
+});
+
+tippy('#momentsPic11', {
+	...tippyParams,
+	content: 'Seu sorriso é a coisa que mais amo ver todos os dias 🥰',
+});
+
+tippy('#momentsPic12', {
+	...tippyParams,
+	content: 'E como ama um vestidinho da farm 😂🥰',
+});
