@@ -66,6 +66,25 @@
 	text-decoration: underline;
 }
 
+.contentMomentsFigureContainer {
+	width: 100.00%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.contentMomentsFigure {
+	width: 150px;
+	height: auto;
+	border: 2px solid var(--background-color-3);
+	border-radius: 8px;
+	object-fit: cover;
+	flex-shrink: 0;
+	box-shadow: 0px 4px 10px var(--background-color-3);
+}
+
 #contentMomentsImagesContainer {
 	width: 100.00%;
 	height: auto;
@@ -96,4 +115,19 @@
 	align-items: center;
 	justify-content: space-around;
 	width: 100.00%;
+}
+
+
+
+/*
+	***********
+	** Mobile *
+	***********
+*/
+@media only screen and (max-width: 850px) {
+  .contentMomentsFigureContainer {
+		flex-direction: column;
+		justify-content: center;
+		gap: 1em;
+	}
 }
